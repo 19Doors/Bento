@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Sakaar Srivastava',
+	name: 'Sakaar',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
