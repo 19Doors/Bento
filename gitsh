@@ -4,4 +4,5 @@ git add *
 Data=$(gum input --placeholder "Message for Commit.")
 git commit -m "$Data"
 
-gum confirm "Push?" && git push -u origin master
+Branch=$(gum input --placeholder "main")
+gum confirm "Push?" && git push -u origin $Branch
