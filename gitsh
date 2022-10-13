@@ -1,5 +1,8 @@
 #!/bin/sh
 
 git add *
-git commit -m "DONE"
-git push -u origin master
+
+Data=$(gum input --placeholder "Message for Commit.")
+git commit -m "$Data"
+
+gum confirm "Push?" && git push -u origin main
